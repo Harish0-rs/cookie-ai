@@ -1,0 +1,56 @@
+[
+  {
+    "id": "proj_sample_01",
+    "title": "AITA For Refusing Wedding Dress",
+    "template_id": "reddit_aita",
+    "script": "AITA for refusing to pay for my sister's wedding dress? My sister has always been the favorite child. Last week, she demanded three thousand dollars from my savings. When I politely said no, my parents called me selfish.",
+    "voice_id": "en-US-ChristopherNeural",
+    "video_id": "minecraft_parkour",
+    "music_id": "lofi_chill",
+    "music_volume": 0.18,
+    "voice_volume": 1.0,
+    "duration": 18.5,
+    "status": "ready",
+    "rendered_video_url": "/api/library/video/minecraft_parkour.mp4",
+    "caption_style": {
+      "preset": "hormozi",
+      "font_family": "Montserrat Black",
+      "primary_color": "#FFFFFF",
+      "highlight_color": "#FFE500",
+      "stroke_color": "#000000",
+      "stroke_width": 4,
+      "position": "center",
+      "y_offset_pct": 55,
+      "words_per_line": 3,
+      "uppercase": true
+    },
+    "created_at": 1790271808
+  },
+  {
+    "id": "proj_sample_02",
+    "title": "3 Terrifying Ocean Mysteries",
+    "template_id": "did_you_know_facts",
+    "script": "Here are three unsettling ocean facts that will keep you awake tonight. Number one. Humans have explored less than five percent of our oceans. Number two. Deep ocean pressure can crush a submarine like a soda can.",
+    "voice_id": "en-US-GuyNeural",
+    "video_id": "subway_surfers",
+    "music_id": "viral_phonk",
+    "music_volume": 0.22,
+    "voice_volume": 1.0,
+    "duration": 16.0,
+    "status": "ready",
+    "rendered_video_url": "/api/library/video/subway_surfers.mp4",
+    "caption_style": {
+      "preset": "crayo_viral",
+      "font_family": "Komika Axis",
+      "primary_color": "#FFFFFF",
+      "highlight_color": "#00FFCC",
+      "stroke_color": "#000000",
+      "stroke_width": 4,
+      "position": "center",
+      "y_offset_pct": 52,
+      "words_per_line": 2,
+      "uppercase": true
+    },
+    "created_at": 1790358208
+  }
+]

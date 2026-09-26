@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0B0C10;
+    color: #F3F4F6;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #12141A;
+}
+::-webkit-scrollbar-thumb {
+  background: #272B38;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B4254;
+}
+
+/* Viral Caption Fonts */
+.font-montserrat-black {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.font-komika {
+  font-family: 'Impact', 'Komika Axis', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.font-poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+/* Range input slider styling */
+input[type="range"] {
+  accent-color: #8B5CF6;
+}
+
+/* Gradient borders */
+.gradient-border-purple {
+  border: 1px solid transparent;
+  background: linear-gradient(#12141A, #12141A) padding-box,
+              linear-gradient(to right, #8B5CF6, #3B82F6) border-box;
+}
+
+.gradient-border-gold {
+  border: 1px solid transparent;
+  background: linear-gradient(#12141A, #12141A) padding-box,
+              linear-gradient(to right, #FFE500, #F59E0B) border-box;
+}

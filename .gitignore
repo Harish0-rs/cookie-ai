@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+.npm
+npm-debug.log*
+
+# Vite
+dist-ssr
+*.local
+
+# Media cache and heavy video/audio assets
+backend/data/exports/*
+backend/data/audio/*
+backend/data/uploads/*
+backend/data/stock_videos/*.mp4
+backend/data/stock_audio/*.mp3
+!backend/data/stock_videos/.gitkeep
+!backend/data/stock_audio/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

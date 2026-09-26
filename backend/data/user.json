@@ -1,0 +1,12 @@
+{
+  "id": "creator_01",
+  "name": "Faceless Creator",
+  "email": "creator@cookie.ai",
+  "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=cookie",
+  "tier": "Creator Pro",
+  "credits_total": 185,
+  "credits_remaining": 170,
+  "videos_created": 11,
+  "total_watch_time_est": "4.2M views",
+  "created_at": "2026-09-01"
+}

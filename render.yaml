@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cookie-ai
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: starter
+    region: oregon
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: PORT
+        value: 10000
